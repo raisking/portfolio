@@ -1,12 +1,12 @@
+
 body {
     /*background: url("../images/bg.jpg");
     background-size: cover;
     background-position: center; */
      // font-family: 'Indie Flower', cursive!important;
      // background: #eff2f4;
-     @import '_footer.scss'
-    
-
+    font-family: 'Indie Flower', cursive!important;
+    background: #eff2f4;
 }
 
 body,
@@ -79,11 +79,11 @@ hr {
     text-decoration: none;
 }
 .btn-primary a:hover{
-    color: #fff;
+    color: #000;
 }
 .navbar-default .navbar-nav li a:hover  
     {
-    color: #fff;
+    color: #000;
     font-weight: bold;
 }
 .my-project{
@@ -252,12 +252,13 @@ h5 a:hover{
     z-index: 1;
 
 }
-.end-footer p {
-    text-align: center;
 
-}
 .end-footer {
     text-align: center;
+    p {
+        text-align: center;
+
+    }
 }
 .btn-google,
 .btn-twitter,
