@@ -2,6 +2,7 @@ body {
   /*background: url("../images/bg.jpg");
   background-size: cover;
   background-position: center; */
+
   font-family: "Indie Flower", cursive !important;
   background: #eff2f4; }
 
@@ -13,6 +14,7 @@ html {
   /*color: white;*/ }
 
 h1 {
+  padding: 20px;
   font-weight: 700;
   font-size: 5em; }
 
@@ -126,13 +128,17 @@ hr {
 .slide-down-a,
 .slide-down-b,
 .slide-down-c {
-  align-items: center;
+  position: relative;
+  right: -5%;
   border-radius: 4px;
-  border: 1px solid #000;
-  color: #fff;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  height: 170px;
+  color: #000;
   font-size: 1.2em;
-  margin: 5px;
-  padding: 20px; }
+  margin: 30px 10px;
+  padding: 20px;
+}
 
 .container-m-4 {
   margin: auto; }
@@ -199,13 +205,34 @@ h5 a:hover {
 
 .my-contact btn-primary a {
   color: #000; }
-
-.bottom-wrapper {
-  margin-top: 20px;
-  margin-bottom: 20px;
+.bottom-wrapper-top{
+  padding-top: 40px;
+  background: #fff;
   border: 2px solid #fff;
-  background: #fff; }
+  width: 75%;
 
+}
+.bottom-wrapper-a{
+ background: #fff;
+border: 2px solid #fff;
+width: 75%;
+
+}
+#prai-description{
+  width: 90%;
+  padding: 20px;
+}
+.bottom-wrapper {
+/*  margin-top: 20px;
+  margin-bottom: 20px;*/
+  width: 75%;
+  border: 2px solid #fff;
+  background: #fff; 
+}
+.content-center{
+  margin-right: auto;
+  margin-left: auto;
+}
 .contact-form {
   max-width: 60%; }
 
